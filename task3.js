@@ -78,7 +78,7 @@ function cal_sum(items){
     return all_sum;
 }
 
-function items_list(items,all_sum) {
+function printReceipt(items,all_sum) {
     var str="";
     str+="***<没钱赚商店>收据***\n";
     for(var i=0;i<items.length;i++)
@@ -115,4 +115,4 @@ var inputs = [
 ];
 cal_itemsum(inputs,items);
 var all_sum=cal_sum(items);
-console.log(items_list(items,all_sum));
+console.log(printReceipt(items,all_sum));
