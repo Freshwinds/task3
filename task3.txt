@@ -1,0 +1,20 @@
+1.获取商品信息(1min)
+input:null
+output:
+items——information:[{barcode:string,name:string,unit:string,price:number}..]
+2.建立类（7min）
+input:null
+output:null
+function Ietms(bracode,name,unit,count,price,item_sum）：（string,string,string,number,number,number）
+3.将输入的数组转换成数组类(7min)
+input:item_information:               
+output:items[Items]
+4.计算数量（5min）
+input:inputs[string],items[Items]
+output:无
+5.计算总计(3min)
+input:[Items]
+output:all_sum:number
+6.打印清单(10min)
+input:all_sum,[Items]
+output:string
