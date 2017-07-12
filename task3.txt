@@ -1,20 +1,20 @@
-1.获取商品信息(1min)
+1.获取商品信息(1min)//1min
 input:null
 output:
 items——information:[{barcode:string,name:string,unit:string,price:number}..]
-2.建立类（7min）
+2.建立类（7min）//6min
 input:null
 output:null
-function Ietms(bracode,name,unit,count,price,item_sum）：（string,string,string,number,number,number）
-3.将输入的数组转换成数组类(7min)
+function Ietm(bracode,name,unit,count,price）：（string,string,string,number,number）
+3.将输入的数组转换成数组类(7min)//7min
 input:item_information:               
-output:items[Items]
-4.计算数量（5min）
-input:inputs[string],items[Items]
+output:items[Item]
+4.计算数量（5min）//4min
+input:inputs[string],items[Item]
 output:无
-5.计算总计(3min)
-input:[Items]
+5.计算总计(3min)//2min
+input:[Item]
 output:all_sum:number
-6.打印清单(10min)
-input:all_sum,[Items]
+6.打印清单(10min) //9min
+input:all_sum,[Item]
 output:string
